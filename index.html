@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+            body {
+                padding-top: 60px;
+                font-family: Arial, sans-serif;
+            }
+            .navbar-brand {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            .navbar {
+                margin-bottom: 40px;
+            }
+            #home p {
+                font-size: 18px;
+                color: #333;
+            }
+            #about, #skills, #experience, #projects, #profiles, #contactme {
+                margin-bottom: 40px;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 10px;
+            }
+            h3 {
+                color: #5bc0de;
+            }
+            h4 {
+                color: #5cb85c;
+            }
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            ul li {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            .container-fluid {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            a {
+                color: #337ab7;
+            }
+            a:focus {
+                outline: none;
+            }
+            .profile-links img {
+                margin-right: 10px;
+            }
+            .profile-links a {
+                margin-right: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Karumudi Harika</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#home">Home</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#profiles">Profiles</a></li>
+                <li><a href="#contactme">Contact me</a></li>
+              </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <!-- <div id="home">
+                <p>Hi, I'm <strong>Karumudi Harika</strong></p>
+                <p>I am currently a final year student at IIT Palakkad</p>
+            </div> -->
+
+            <div id="about">
+                <h3>About</h3>
+                <p>Hello! I'm Karumudi Harika, a final-year student at IIT Palakkad, pursuing my Bachelor’s degree in Computer Science and Engineering. I have a strong passion for technology and problem-solving, with experience in various domains such as software development, machine learning, and web design.
+                    
+                    Throughout my academic journey, I have developed a robust technical skill set, including programming in Python and C, building web applications using HTML, CSS/Bootstrap, and managing databases with MySQL and PostgreSQL. I have also been fortunate enough to work on exciting projects and internships, where I applied my knowledge in real-world scenarios—whether it was developing an insurance portal for the National Fisheries Development Board or simulating a software engineering job at Quantium.
+                    
+                    In addition to my technical skills, I am an enthusiastic learner, constantly seeking to expand my knowledge and stay updated with the latest trends in technology. My goal is to leverage my skills and experience in building innovative solutions, particularly in areas such as artificial intelligence, data science, and software engineering.
+                    
+                    Outside of academics, I enjoy engaging in creative pursuits, participating in various tech and arts clubs, and collaborating on projects that blend creativity and technology. I am eager to continue learning, growing, and contributing to meaningful work as I move forward in my career</p>
+            </div>
+            
+            <div id="skills">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li><strong>Programming Languages:</strong> C, Python, HTML, CSS/Bootstrap</li>
+                    <li><strong>Database Management:</strong> MySQL, PostgreSQL</li>
+                </ul>
+            </div>
+            
+            <div id="experience">
+                <h3>Experience</h3>
+                <h4>Intern - National Fisheries Development Board</h4>
+                <p>Developed an insurance portal for managing claims.</p>
+                <h4>Software Engineering Job Simulation - Quantium</h4>
+                <p>Created a Dash application for analyzing price impact on sales.</p>
+            </div>
+
+            <div id="projects">
+                <h3>Projects</h3>
+                <h4>Restaurant Management System</h4>
+                <p>The restaurant management system simplifies tasks for managers, allowing them to handle customer and
+                    employee data, table assignments, and order processing efficiently. It incentivizes staff performance with
+                    bonuses for prompt food preparation and rewards customers with discounts for delayed orders. Additionally,
+                    the system tracks menu updates, price changes, and food ratings for informed decision-making, streamlining
+                    business operations.</p>
+                <h4>Forecast Climate</h4>
+                <p>We collected climate information using Netcdf files and utilized R programming language to extract the
+                    necessary data. Afterwards, we developed an application that operates within RStudio. This application
+                    enables users to input a specific date and select a location on a map using Leaflet. Once the location is
+                    chosen, the application provides temperature and humidity information corresponding to the selected place.</p>
+                <h4>Outside Window Cleaning Robot</h4>
+                <p>The robot has two components one inside the window(motorpart) and other(the cleaning part) outside the
+                    window. The robot is attached at the left-corner of the window. After the robot is switched on,both components
+                    start moving vertically upwards simultaneously and the outer-part starts cleaning the window.When motor
+                    component reaches the upper edge of the window; with the help of IR sensors, it will rotate itself by 180 and
+                    start moving downwards,same procedure will be followed when it reaches lower end.</p>
+            </div>
+
+            <div id="profiles">
+                <h3>Profiles</h3>
+                <div class="profile-links">
+                    <a href="https://leetcode.com/u/Haruno040111/">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4h4yf5vhuu8_Dqf5VC1l1tFbIJ88N4H24jg&s" alt="Leetcode" width="80px" height="80px">
+                    </a>
+                    <a href="https://github.com/Harikak09">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s" alt="Github" width="100px" height="100px">
+                    </a>
+                </div>
+            </div>
+
+            <div id="contactme">
+                <h3>Contact Me</h3>
+                <p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/800px-Gmail_icon_%282020%29.svg.png" alt="Gmail" width="20px" height="20px">
+                    <a href="mailto:harikakarumudi04@gmail.com">harikakarumudi04@gmail.com</a>
+                </p>
+                <p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="LinkedIn" width="20px" height="20px">
+                    <a href="https://www.linkedin.com/in/harika-karumudi-a8864b23a/">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
+
